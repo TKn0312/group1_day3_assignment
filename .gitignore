@@ -1,0 +1,24 @@
+# virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# data: downloaded by the notebook, not committed
+data/*
+!data/.gitkeep
+!data/facades_clean.csv.gz
+
+# fitted model and published data: on Hugging Face, not on GitHub
+models/*.joblib
+dataset/*.csv
+test_download/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# secrets
+.env
+kaggle.json
