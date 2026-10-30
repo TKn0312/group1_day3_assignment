@@ -9,6 +9,7 @@ venv/
 data/*
 !data/.gitkeep
 !data/facades_clean.csv.gz
+!data/facades_clean.csv
 
 # fitted model and published data: on Hugging Face, not on GitHub
 models/*.joblib
